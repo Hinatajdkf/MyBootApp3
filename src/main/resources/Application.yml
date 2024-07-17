@@ -1,4 +1,10 @@
-server:
-  port: 4444
-  servlet:
-    context-path: /te
+##server:
+  ##port: 8080
+  ##servlet:
+    ##context-path:
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
